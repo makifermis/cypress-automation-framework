@@ -3,7 +3,7 @@ import AutoStore__HairCare_PO from '../../support/pageObjects/automation-test-st
 var data = require('..//..//fixtures/products.json')
 
 
-describe('Add multiple items to basket', () => {
+describe('Add multiple items to the basket', () => {
     const autoStore_Homepage_PO = new AutoStore__Homepage_PO()
     const autoStore_HairCare_PO = new AutoStore__HairCare_PO()
 
