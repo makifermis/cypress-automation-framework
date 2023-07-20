@@ -26,7 +26,6 @@ module.exports = defineConfig({
     excludeSpecPattern: "cypress/e2e/other/*.js", // excludes those files to be seen in the cypress app
     baseUrl: "https://www.webdriveruniversity.com",
     chromeWebSecurity: false,
-    experimentalSessionAndOrigin: true,
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
     screenshotOnRunFailure: true,
